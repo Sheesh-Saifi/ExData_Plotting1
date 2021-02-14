@@ -1,5 +1,7 @@
 ## Introduction
 
+Kindly Check plot1.R, plot1.png, etc for the week 1 project submission!
+
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
 Learning Repository</a>, a popular repository for machine learning
