@@ -1,0 +1,6 @@
+library(dplyr)
+data = read.table("./householddata/household_power_consumption.txt",header=TRUE,sep=";")
+req_data = filter(data,Date == "1/2/2007" | Date=="2/2/2007")
+hist(as.numeric(req_data$Global_active_power),col="red",xlab = "Global active power (Kilowatts)", main = "Global active power")
+dev.copy(png,filename="plot1.png")
+dev.off()
